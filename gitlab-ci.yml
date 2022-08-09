@@ -1,0 +1,25 @@
+```yml
+image: node:10.16-alpine
+
+stages:
+  - install
+  - test
+
+job-install:
+  stage: install
+  script:
+    - npm install
+  artifacts:
+    expire_in: 1hr
+    paths:
+      - node_modules/
+  cache:
+    paths:
+      - node_modules/
+
+job-test:
+  stage: test
+  dependencies:
+    - job-install
+  script:
+    - npm run test:ci
