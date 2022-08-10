@@ -51,10 +51,10 @@ function App() {
           <div className=" max-w-xl grid grid-cols-1 gap-8">
             <h2 className="text-xl uppercase font-bold">UNIVERSIDAD TECNOLÓGICA DE DURANGO</h2>
             <h2 className="text-6xl font-bold">
-              NOMBRE DEL ALUMNO:
+              NOMBRE DEL ALUMNO:ISAAC OMAR REYES LARA
             </h2>
             <h1 className="text-6xl font-bold">
-              CUENTA GIT:
+              CUENTA GIT:IN
             </h1>
             <h1 className="text-6xl font-bold">
               CUENTA GIT LAB:
